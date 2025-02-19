@@ -5,12 +5,15 @@ import { Component, signal } from '@angular/core';
   imports: [],
   template: ` <div class="header">{{ title() }}</div> `,
   styles: `
-  .header {
-    background: rgb(255, 255, 255);
-    color: black;
 
-  }`,
+  .header {
+    background: rgb(0,0,0,.5);
+    color: black;
+    padding: 1 rem;
+  }
+  
+  `,
 })
 export class HeaderComponent {
-  title = signal('Me me Mario');
+  title = signal('Its e me me Mario');
 }

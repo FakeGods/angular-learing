@@ -12,5 +12,5 @@ import { HeaderComponent } from './components/header/header.component';
   styles: ``,
 })
 export class AppComponent {
-  title = signal('Mu Eco App');
+  title = signal('My FUCKING App');
 }
