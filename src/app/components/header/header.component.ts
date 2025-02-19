@@ -6,7 +6,7 @@ import { Component, signal } from '@angular/core';
   template: ` <div class="header">{{ title() }}</div> `,
   styles: `
 
-  .header {
+.header {
     background: rgb(0,0,0,.5);
     color: black;
     padding: 1 rem;
@@ -15,5 +15,5 @@ import { Component, signal } from '@angular/core';
   `,
 })
 export class HeaderComponent {
-  title = signal('Its e me me Mario');
+  title = signal('Kiebab');
 }
