@@ -3,16 +3,12 @@ import { Component, signal } from '@angular/core';
 @Component({
   selector: 'app-header',
   imports: [],
-  template: ` <div class="header">{{ title() }}</div> `,
-  styles: `
-
-.header {
-    background: rgb(0,0,0,.5);
-    color: black;
-    padding: 1 rem;
-  }
-  
+  template: `
+    <div class="bg-slate-100 px-4 py-3">
+      {{ title() }}
+    </div>
   `,
+  styles: ``,
 })
 export class HeaderComponent {
   title = signal('Kiebab');
