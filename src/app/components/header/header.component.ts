@@ -4,12 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <p>
-      header works!
-    </p>
+    <div class="bg-slate-100 px-4 py-3 shadow-md">
+      <span>My store </span>
+    </div>
   `,
-  styles: ``
+  styles: ``,
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}

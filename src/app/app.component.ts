@@ -4,11 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 @Component({
   selector: 'app-root',
   imports: [HeaderComponent],
-  template: `
-    <h1>Welcome to {{ title }}!</h1>
-
-    <app-header />
-  `,
+  template: ` <app-header /> `,
   styles: ``,
 })
 export class AppComponent {
